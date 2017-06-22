@@ -1,6 +1,6 @@
 ## Here is a coloring file for GNU/ARM assembler.
 ## 
-syntax "s" "\.(S|s)$"
+syntax "s" "\.(S|s|arm|ARM)$"
 
 ##icolor is case-insensitive color
 ##For { r1 , r2 , r3 }
@@ -48,7 +48,7 @@ color brightyellow "\.(ascii|asciz|byte|double|float|hword|int|long|short|single
 icolor brightred "[[:space:]]*[.0-9A-Z_$\@]*:"
 color brightcyan "^[[:space:]]*#[[:space:]]*(define|undef|elif|warning|error)"
 color brightcyan "(^[[:space:]]*#[[:space:]]*|\.)(include|ifn?def|endif|elseif|else|if|err|error|fail)"
-color brightcyan "\.(macro|endm|repr|endr|equ(iv)?|set|(un)?req)"
+color brightcyan "\.(macro|endm|purgem|altmacro|repr|endr|equ(iv)?|set|(un)?req)"
 ## Highlight strings (note: VERY resource intensive)
 color brightyellow "<[^= 	]*>" ""(\\.|[^"])*""
 color brightyellow start=""(\\.|[^"])*\\[[:space:]]*$" end="^(\\.|[^"])*""

@@ -47,7 +47,7 @@ color green "\.(b?align|file|globl|global|hidden|section|size|type|weak|thumb_fu
 color brightyellow "\.(ascii|asciz|byte|double|float|hword|int|long|short|single|struct|word|space|skip)"
 icolor brightred "[[:space:]]*[.0-9A-Z_$\@]*:"
 color brightcyan "^[[:space:]]*#[[:space:]]*(define|undef|elif|warning|error)"
-color brightcyan "(^[[:space:]]*#[[:space:]]*|\.)(include|ifn?def|endif|elseif|else|if|err|fail)"
+color brightcyan "(^[[:space:]]*#[[:space:]]*|\.)(include|ifn?def|endif|elseif|else|if|err|error|fail)"
 color brightcyan "\.(macro|endm|repr|endr|equ(iv)?|set|(un)?req)"
 ## Highlight strings (note: VERY resource intensive)
 color brightyellow "<[^= 	]*>" ""(\\.|[^"])*""

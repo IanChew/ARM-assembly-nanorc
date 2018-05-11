@@ -24,7 +24,7 @@ icolor brightgreen "\bb(l|x|lx)?(eq|ne|hs|lo|cc|cs|mi|pl|vs|vc|hi|ls|ge|lt|gt|le
 icolor brightgreen "\b(swi|svc|nop|cbn?z|tb[bh]|it[te]{,3})\b"
 ##FPU instructions
 icolor brightwhite "\bv(mov|ldr|str|push|pop|ldmia|stmdb|msr|mrs)(eq|ne|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al)?\b"
-icolor brightwhite "\bv(add|sub|div|neg|abs|sqrt|n?mul|n?ml[as]|n?fm[as]|cmp|mov|recpe|rsprte)(eq|ne|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al)?\.(f(32|64)|(i|u|s)(8|16|32))\b"
+icolor brightwhite "\bv(add|sub|div|neg|abs|sqrt|n?mul|n?ml[as]|n?fm[as]|cmp|mov|recpe|rsqrte)(eq|ne|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al)?\.(f(32|64)|(i|u|s)(8|16|32))\b"
 icolor brightwhite "\bv(cvt(eq|ne|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|ge|lt|gt|le|al)?\.(f(32|64)|s32|u32)\.(f(32|64)|s32|u32))\b"
 ##NEON instructions
 icolor brightwhite "\b(veor|vmov.[isu](8|16|32|64))\b"
